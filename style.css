@@ -1,0 +1,138 @@
+.topnav{
+    background-color:rgb(187, 133, 51);
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+  
+}
+.topnav a{
+    float: right;
+    display:block;
+    color:black;
+    text-align: center;
+    padding: 12px 12px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 60px;
+}
+.topnav a:hover{
+    background-color: rgb(250, 236, 179);
+    font-size:large ;
+
+}
+body{
+    margin: 0px;
+    background-color:whitesmoke;
+
+}
+.search-container{
+    text-align: center;
+    background-color:rgb(241, 207, 158);
+    margin-left: 2%;
+    height: 50px;
+     }
+.input-search{
+    height: 30px;
+    width:50px ;
+
+}
+.sidenav{
+    
+    background-color:rgb(201, 145, 82);
+    height: 1000px;
+    width:11%;
+    margin-top: -70px; 
+}
+.sidenav a{ 
+     float:left;
+    display:block;
+    color:black;
+padding: 5px 5px;
+    text-decoration: none;
+    font-size: 17px;
+    height: 30px;
+     
+
+
+
+}
+.sidenav a:hover{
+    background-color: cornsilk;
+    
+
+}
+.grid-container{
+/* display: grid; */display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+
+
+/* grid-template-columns: repeat (4,auto);  */
+
+margin-top:-70%; 
+ width:80%;
+height: 2%;
+background-color: whitesmoke;
+padding: 20px;
+margin-left: 13%;
+grid-gap:40px;
+
+/* background-color: rgb(228, 124, 124);
+box-shadow: 10px 10px 10px cornsilk;
+color: cyan;
+padding: 20px;
+float: right; */
+
+
+}
+/* .grid-container::after{
+    display: table;} */
+.grid-container a{
+    text-decoration: none;
+    color: black;}
+.grid-item{
+ 
+/* height: 20%;
+width:30%;
+background-color: rgb(245, 213, 86);
+margin-left: 1px; */ display: grid;
+   
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+   
+    box-shadow:5px 5px 5px ;
+width: 80%;
+    height: 400px;
+
+}
+
+#log{
+    /* background-color:rgb(88, 16, 16);
+box-shadow: burlywood;
+border-radius: 56px;
+ margin-top: -3510px;
+   text-align: end;
+    height: 40%;
+    width: 1000px;
+display: none;
+margin-left: 75%; */
+/* width: 55%;
+display: none;
+margin-top:-400px;
+margin-left: 50%;
+background-color:cornsilk;
+height: 45%;
+text-align: center; */
+width: 60%;
+margin-top: -950px;
+display: none;
+margin-left: 950px;
+background-color:wheat;
+height: 230px;
+
+
+
+
+
+}
+
+
+
